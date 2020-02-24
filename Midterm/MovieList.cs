@@ -12,6 +12,7 @@ namespace Midterm
         {
             movies.Add(new Movie("The Dark Knight", "Christian Bale", "Action", "Christopher Nolan"));
             movies.Add(new Movie("Die Hard", "Bruce Willis", "Action", "John McTiernan"));
+            movies.Add(new Movie("Pulp Fiction", "Samuel Jackson", "Crime", "Quentin Tarantino"));
         }
         public void MovieSortByActor()
         {
@@ -62,6 +63,8 @@ namespace Midterm
         }
         public void SearchByDirectorAndDisplay(string input)
         {
+            Console.WriteLine($"\nMovies directed by >> {input}");
+            Header();
             foreach (Movie movie in movies)
             {
                 if (input.ToLower() == movie.Director.ToLower())
@@ -69,14 +72,63 @@ namespace Midterm
                     Console.WriteLine(movie);
                 }
             }
+            Console.WriteLine();
+        }
+        public void SearchByGenreAndDisplay(string input)
+        {
+            Console.WriteLine($"\nMovies in the following genre >> {input}");
+            Header();
+            foreach (Movie movie in movies)
+            {
+                if (input.ToLower() == movie.Genre.ToLower())
+                {
+                    Console.WriteLine(movie);
+                }
+            }
+            Console.WriteLine();
+        }
+        public void SearchByActorAndDisplay(string input)
+        {
+            Console.WriteLine($"\nMovies with the following actor >> {input}");
+            Header();
+            foreach (Movie movie in movies)
+            {
+                if (input.ToLower() == movie.MainActor.ToLower())
+                {
+                    Console.WriteLine(movie);
+                }
+            }
+            Console.WriteLine();
+        }
+        public void SearchByNameAndDisplay(string input)
+        {
+            Console.WriteLine($"\nMovies with the following name >> {input}");
+            Header();
+            foreach (Movie movie in movies)
+            {
+                if (input.ToLower() == movie.MovieName.ToLower())
+                {
+                    Console.WriteLine(movie);
+                }
+            }
+            Console.WriteLine();
         }
         public void DisplayMovieList()
         {
+            Header();
             foreach (Movie movie in movies)
             {
                 Console.WriteLine(movie);
             }
+            Console.WriteLine();
         }
+        public void Header()
+        {
+            Console.WriteLine($"\n{"MOVIE TITLE",-25} {"GENRE",-25} {"MAIN ACTOR",-25} {"DIRECTOR",-25}");
+            for (int i = 0; i < 100; i++) { Console.Write("="); }
+            Console.WriteLine();
+        }
+        //TODO: see if this is needed, do I need to return the list of movies?
         public List<Movie> ReturnMovieList()
         {
             return movies;

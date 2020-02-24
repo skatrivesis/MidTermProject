@@ -27,7 +27,7 @@ namespace Midterm
 
         public override string ToString()
         {
-            return $"{movieName, -25} {mainActor, -25} {genre, -25} {director, -25}";
+            return $"{movieName, -25}|{genre,-25}|{mainActor, -25}|{director, -25}";
         }
     }
 }

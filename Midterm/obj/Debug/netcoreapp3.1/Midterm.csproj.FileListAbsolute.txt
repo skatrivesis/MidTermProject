@@ -1,0 +1,11 @@
+C:\Users\skatrivesis\OneDrive - Knex\Documents\DevBuild\Midterm\Midterm\bin\Debug\netcoreapp3.1\Midterm.exe
+C:\Users\skatrivesis\OneDrive - Knex\Documents\DevBuild\Midterm\Midterm\bin\Debug\netcoreapp3.1\Midterm.deps.json
+C:\Users\skatrivesis\OneDrive - Knex\Documents\DevBuild\Midterm\Midterm\bin\Debug\netcoreapp3.1\Midterm.runtimeconfig.json
+C:\Users\skatrivesis\OneDrive - Knex\Documents\DevBuild\Midterm\Midterm\bin\Debug\netcoreapp3.1\Midterm.runtimeconfig.dev.json
+C:\Users\skatrivesis\OneDrive - Knex\Documents\DevBuild\Midterm\Midterm\bin\Debug\netcoreapp3.1\Midterm.dll
+C:\Users\skatrivesis\OneDrive - Knex\Documents\DevBuild\Midterm\Midterm\bin\Debug\netcoreapp3.1\Midterm.pdb
+C:\Users\skatrivesis\OneDrive - Knex\Documents\DevBuild\Midterm\Midterm\obj\Debug\netcoreapp3.1\Midterm.csprojAssemblyReference.cache
+C:\Users\skatrivesis\OneDrive - Knex\Documents\DevBuild\Midterm\Midterm\obj\Debug\netcoreapp3.1\Midterm.AssemblyInfoInputs.cache
+C:\Users\skatrivesis\OneDrive - Knex\Documents\DevBuild\Midterm\Midterm\obj\Debug\netcoreapp3.1\Midterm.AssemblyInfo.cs
+C:\Users\skatrivesis\OneDrive - Knex\Documents\DevBuild\Midterm\Midterm\obj\Debug\netcoreapp3.1\Midterm.dll
+C:\Users\skatrivesis\OneDrive - Knex\Documents\DevBuild\Midterm\Midterm\obj\Debug\netcoreapp3.1\Midterm.pdb

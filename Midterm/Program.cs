@@ -6,7 +6,7 @@ namespace Midterm
     {
         static void Main(string[] args)
         {
-            int menu = 0;
+            int menu;
             string movieName, mainActor, genre, director;
 
             MovieList movieList = new MovieList();
@@ -63,7 +63,7 @@ namespace Midterm
                     movieList.SearchByGenreAndDisplay(searchInput);
                     break;
                 case 3:
-                    searchInput = StrInput("enter Director Name >> ");
+                    searchInput = StrInput("Enter Director Name >> ");
                     movieList.SearchByDirectorAndDisplay(searchInput);
                     break;
                 case 4:

@@ -13,6 +13,12 @@ namespace Midterm
             movies.Add(new Movie("The Dark Knight", "Christian Bale", "Action", "Christopher Nolan"));
             movies.Add(new Movie("Die Hard", "Bruce Willis", "Action", "John McTiernan"));
             movies.Add(new Movie("Pulp Fiction", "Samuel Jackson", "Crime", "Quentin Tarantino"));
+            movies.Add(new Movie("The Matrix", "Keanu Reeves", "Sci-Fi", "The Wachowski Brothers"));
+            movies.Add(new Movie("The Shawshank Redemption", "Morgan Freeman", "Drama", "Frank Darabont"));
+            movies.Add(new Movie("The Godfather", "Marlon Brando", "Crime", "Francis Ford Coppola"));
+            movies.Add(new Movie("Fight Club", "Brad Pitt", "Drama", "David Fincher"));
+            movies.Add(new Movie("Forrest Gump", "Tom Hanks", "Drama", "Robert Zemeckis"));
+            movies.Add(new Movie("Inception", "Leonardo DiCaprio", "Adventure", "Christopher Nolan"));
         }
         public void MovieSortByActor()
         {
@@ -67,7 +73,7 @@ namespace Midterm
             Header();
             foreach (Movie movie in movies)
             {
-                if (input.ToLower() == movie.Director.ToLower())
+                if (movie.Director.ToLower().Contains(input.ToLower()))
                 {
                     Console.WriteLine(movie);
                 }
@@ -80,7 +86,7 @@ namespace Midterm
             Header();
             foreach (Movie movie in movies)
             {
-                if (input.ToLower() == movie.Genre.ToLower())
+                if (movie.Genre.ToLower().Contains(input.ToLower()))
                 {
                     Console.WriteLine(movie);
                 }
@@ -93,7 +99,7 @@ namespace Midterm
             Header();
             foreach (Movie movie in movies)
             {
-                if (input.ToLower() == movie.MainActor.ToLower())
+                if (movie.MainActor.ToLower().Contains(input.ToLower()))
                 {
                     Console.WriteLine(movie);
                 }
@@ -106,7 +112,7 @@ namespace Midterm
             Header();
             foreach (Movie movie in movies)
             {
-                if (input.ToLower() == movie.MovieName.ToLower())
+                if (movie.MovieName.ToLower().Contains(input.ToLower()))
                 {
                     Console.WriteLine(movie);
                 }
